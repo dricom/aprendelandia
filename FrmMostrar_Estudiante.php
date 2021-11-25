@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Mostrar Estudiante</title>
+<title>Consultar Estudiante</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
@@ -24,7 +24,7 @@ $objEstudiante1=new Estudiante($nombre,$identificacion,$fechanacimiento,$valor);
       <th scope="col">#</th>
       <th scope="col">Nombre</th>
       <th scope="col">Identificación</th>
-      <th scope="col">Valor</th>
+      <th scope="col">Valor sin descuento</th>
       <th scope="col">Valor con descuento</th>
     </tr>
   </thead>
